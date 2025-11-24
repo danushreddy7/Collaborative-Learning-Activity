@@ -21,6 +21,7 @@
 * Maps grade strings to numeric grade points
 # STEP-5:GPA Formula GPA:
  <img width="753" height="25" alt="image" src="https://github.com/user-attachments/assets/d28399af-167b-4c34-a30d-175eb2f82c3c" />
+ 
 # STEP-6:Bison Actions:
 * MENU1: Add subject record
 * MENU2: Compute semester GPA
@@ -157,6 +158,7 @@ int main() {
 ```
 ## OUTPUT:
 <img width="1024" height="1536" alt="CD-COLAB" src="https://github.com/user-attachments/assets/29841855-e00c-45e8-a1d8-23aadef45547" />
+
 ## RESULT:
 The CGPA Calculator program was successfully developed using Flex and Bison.
 
