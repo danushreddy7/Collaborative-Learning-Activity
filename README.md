@@ -1,38 +1,30 @@
 # Collaborative-Learning-Activity:
-
 # NAME: T.DANUSH REDDY
 # REG NO:212223040029
 
-## PROBLEM STATEMENT: 
+## PROBLEM STATEMENT:
+
 # Create a CGPA calculator using Flex and Bison that allows users to enter grades and credits for multiple semesters using a menu-driven interface and compute GPA and CGPA.
-
 ## PROCEDURE:
-
 # STEP-1:Tokens in Flex:
 * Recognize the following:- Grades: O, A+, A, B+, B, C, P, F- Numbers (credits)
-* Menu options: 1, 2, 3 3.
-  
+* Menu options: 1, 2, 3 3. 
 # STEP-2:Grammar in Bison: 
 * MENU1 → Add subject
 * MENU2 → Next semester
 * MENU3 → Finish program
 * GRADE NUMBER → store grade and credit
-
 # STEP-3: yylval Usage: 
 * yylval is used to send values from lexer to parser.
-* Example:- yylval.grade for grade strings- yylval.credit for integers
-  
+* Example:- yylval.grade for grade strings- yylval.credit for integers 
 # STEP-4:grade_to_point() Function: 
 * Maps grade strings to numeric grade points
-
 # STEP-5:GPA Formula GPA:
  <img width="753" height="25" alt="image" src="https://github.com/user-attachments/assets/d28399af-167b-4c34-a30d-175eb2f82c3c" />
-
 # STEP-6:Bison Actions:
 * MENU1: Add subject record
 * MENU2: Compute semester GPA
 * MENU3: Compute final CGPA and exit
-
 # STEP-7:Example Input:
 1  
 A 4  
@@ -40,7 +32,8 @@ A 4
 B+ 3  
 2  
 1  
-O 3  
+O 3 
+
 ## program:
 # cgpa.l:
 ```
@@ -164,7 +157,6 @@ int main() {
 ```
 ## OUTPUT:
 <img width="1024" height="1536" alt="CD-COLAB" src="https://github.com/user-attachments/assets/29841855-e00c-45e8-a1d8-23aadef45547" />
-
 ## RESULT:
 The CGPA Calculator program was successfully developed using Flex and Bison.
 
